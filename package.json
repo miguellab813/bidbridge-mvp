@@ -1,18 +1,21 @@
 {
-  "name": "bidbridge-mvp",
-  "version": "1.0.0",
-  "description": "Construction Marketplace Platform",
+  "name": "bidbridge-live",
+  "version": "3.0.0",
+  "description": "BidBridge Construction Marketplace",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "openai": "^4.0.0",
     "stripe": "^12.0.0",
-    "pg": "^8.11.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1"
+    "aws-sdk": "^2.1450.0",
+    "uuid": "^9.0.0",
+    "socket.io": "^4.7.2",
+    "nodemailer": "^6.9.4"
   },
   "engines": {
     "node": ">=16.0.0"
